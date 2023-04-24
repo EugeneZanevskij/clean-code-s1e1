@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html>
-<head><title>Todo App</title>
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-<link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  <title>Todo App</title>
 </head>
 <body class="page">
-  <div class="header">
+  <header class="header">
     <img class="header__image" src="./eisenhower-matrix.jpg">
     <a class="header__inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="main">
-    <div class="task-add" id="task-add">
+  </header>
+  <main class="main">
+    <section class="task-add" id="task-add">
       <label class="task-add__label" for="new-task">Add Item</label>
       <div class="task-add__wrapper">
         <input id="new-task" class="task-add__input task-input" type="text">
         <button class="task-add__button button">Add</button>
       </div>
-    </div>
-    <div class="tasks tasks-incomplete">
+    </section>
+    <section class="tasks tasks-incomplete">
       <h3 class="tasks__title">Todo</h3>
       <ul class="tasks__list" id="incomplete-tasks">
         <li class="tasks__item">
@@ -39,8 +41,8 @@
           </button>
         </li>
       </ul>
-    </div>
-    <div class="tasks tasks-incomplete">
+    </section>
+    <section class="tasks tasks-incomplete">
       <h3 class="tasks__title">Completed</h3>
       <ul class="tasks__list" id="completed-tasks">
         <li class="tasks__item">
@@ -53,8 +55,8 @@
           </button>
         </li>
       </ul>
-    </div>
-  </div>
+    </section>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
