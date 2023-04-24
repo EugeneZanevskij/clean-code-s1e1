@@ -22,7 +22,8 @@
 
 @media (max-width:768px) {
 
-    .header { text-align: center;
+    .header {
+        text-align: center;
     }
 
 }
@@ -49,11 +50,13 @@
     padding: 0px;
 }
 
-.tasks__item, .tasks__title {
+.tasks__item,
+.tasks__title {
     list-style: none;
 }
 
-.task--input,.button{
+.task--input,
+.button{
     outline: none;
 }
 
